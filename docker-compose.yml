@@ -1,0 +1,40 @@
+version: "3.1"
+services:
+    airbnb:
+        build:
+          context: .
+          dockerfile: Dockerfile
+        hostname: airbnb
+        environment:
+          TERM: xterm-256color
+          LOCATION: "Berlin"
+          TOKEN: ""
+          SLACK_WEBHOOK: ""
+          SLACK_CHANNEL: ""
+          SLACK_USERNAME: ""
+          SHOW_IMAGES: "true"
+          MAKE_INQUIRIES: "false"
+          PIPE_TO_SLACK: "false"
+        cap_drop:
+        - ALL
+        security_opt:
+          - no-new-privileges:true
+        read_only: false
+    mongo:
+        image: mongo
+        volumes:
+          - "mongo:/data/db"
+        hostname: mongo
+        cap_drop:
+          - ALL
+        cap_add:
+          - SETGID
+          - SETUID
+          - DAC_OVERRIDE
+          - CHOWN
+          - NET_BIND_SERVICE
+        security_opt:
+          - no-new-privileges:true
+        read_only: false
+volumes:
+  mongo:
