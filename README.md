@@ -39,7 +39,7 @@ Node (source):
 
 ```
 git clone https://github.com/Kaisle/airbnb && cd airbnb
-npm start
+npm install && npm start
 ```
 
 ## Options
