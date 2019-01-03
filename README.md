@@ -31,8 +31,8 @@ docker-compose build && docker-compose up
 Node (npm):
 
 ```
-const airbnb = require('airbnb');
-airbnb.search({LOCATION: 'Berlin'});
+const shellbnb = require('shellbnb');
+shellbnb.search({LOCATION: 'Berlin'});
 ```
 
 Node (source):
