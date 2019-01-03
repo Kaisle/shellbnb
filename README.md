@@ -174,7 +174,7 @@ You can specify a start date and an end date for your stay by using the followin
 START_DATE: "2019-03-01",
 END_DATE. "2019-03-03"
 ```
-This will only include listings that are within 4 km of 51.509,-0.118. 
+This will only include listings that are available between 1st of March and 3rd of March.
 
 ## Restrict location using coordinates
 
