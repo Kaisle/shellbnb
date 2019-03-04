@@ -4,7 +4,7 @@
   "description": "Airbnb in your shell",
   "main": "src/app/airbnb.js",
   "dependencies": {
-    "airbnbapijs": "^0.8.2",
+    "airbnbapijs": "^0.10.0",
     "axios": "^0.18.0",
     "geolib": "^2.0.24",
     "got": "^9.4.0",
