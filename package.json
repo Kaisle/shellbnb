@@ -6,7 +6,7 @@
   "dependencies": {
     "airbnbapijs": "^0.8.2",
     "axios": "^0.18.0",
-    "geolib": "^2.0.24",
+    "geolib": "^3.0.0",
     "got": "^9.4.0",
     "is-docker": "^1.1.0",
     "moment": "^2.22.2",
