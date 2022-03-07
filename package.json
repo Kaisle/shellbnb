@@ -5,7 +5,7 @@
   "main": "src/app/airbnb.js",
   "dependencies": {
     "airbnbapijs": "^0.8.2",
-    "axios": "^0.18.0",
+    "axios": "^0.21.0",
     "geolib": "^2.0.24",
     "got": "^9.4.0",
     "is-docker": "^1.1.0",
